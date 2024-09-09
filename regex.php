@@ -17,6 +17,9 @@ echo "Hoje é " . date("l"). "<br>";
 echo " Hoje é ". date("y/m/d") . "<br>";
 echo date ("Y"); "<br>";
 echo " Hora ". date ("h:i:sa") . "<br>";
+$age = array("Peter"=>35, "Ben"=>37, "Paulo"=>43);
+echo "<br>";
+echo json_encode($age);
 
 
 ?>
